@@ -24,14 +24,14 @@ const Character = (props) => {
             <p>Gender: {gender}</p>
             <p>Salary: ${salary}</p>
             <p>Special on: {skills}</p>
-            <button onClick={ () => props.handleAddToCart(props.character)} className="btn shadow btn-danger border-success">{elementCart} add to cart</button>
+            <button onClick={ () => props.handleAddToCart(props.character)} className="btn shadow btn-danger border-success">{elementCart} Add To Cart</button>
             <br />
             <div className="d-flex mt-2 justify-content-center">
-                <div className="p-2 m-2 border-primary text-primary border">
+                <div className="p-2 m-2 border-primary text-primary border w-40p">
                 {elementFb} 
                 </div>
 
-            <div className=" text-info m-2 border-info p-2 border">  
+            <div className=" text-info m-2 border-info p-2 border w-40p">  
                 {elementTw} 
             </div>
             </div>

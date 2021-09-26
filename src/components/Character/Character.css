@@ -1,3 +1,6 @@
+.card-container p{
+    margin-bottom: 0.3rem !important;
+}
 .card:hover{
     border: 3px solid red;
 }
@@ -10,5 +13,11 @@ img {
 }
 .btn:hover{
     opacity: 0.8;
-    
+}
+.btn {
+    margin-top: 18px;
+}
+
+.w-40p {
+    width: 40px;
 }

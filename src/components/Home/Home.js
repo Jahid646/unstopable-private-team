@@ -15,8 +15,8 @@ const Home = () => {
 
 
  const handleAddToCart = (character) => {
-        const ss = cart.find(cart => cart.name === character.name)
-        if(ss){
+        const checker = cart.find(cart => cart.name === character.name)
+        if(checker){
             alert('Already Added');
         }
         else{
@@ -28,7 +28,7 @@ const Home = () => {
 
     }
     return (
-        <div>
+        <div className="container">
             <div className="row mt-4">
                 <div className="col-md-9">
                     <div className="row g-4">
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
 
                 <div className="col-md-3">
-                            <Cart cart={cart} key={cart.key}></Cart>
+                            <Cart cart={cart} ></Cart>
 
                 </div>
             </div>
