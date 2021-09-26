@@ -1,0 +1,12 @@
+
+
+img {
+    border-radius: 50%;
+    height: 260px;
+    padding: 10px !important;
+    /* width: auto; */
+}
+.btn:hover{
+    opacity: 0.8;
+    
+}
