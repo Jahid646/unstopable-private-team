@@ -29,7 +29,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div className="row">
+            <div className="row mt-4">
                 <div className="col-md-9">
                     <div className="row g-4">
                         
@@ -44,10 +44,9 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 p-0">
+                <div className="col-md-3">
                             <Cart cart={cart} key={cart.key}></Cart>
 
-                            
                 </div>
             </div>
         </div>

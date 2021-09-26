@@ -16,7 +16,7 @@ const Character = (props) => {
     return (
         <div className="col-md-4">
             <div className="card-container h-100">
-            <div className="card h-100 border-danger shadow-lg m-2">
+            <div className="card h-100 border-danger shadow m-2">
             <img src={img} className="" alt="" />
             <div className="card-body">
             <h5>{name}</h5>

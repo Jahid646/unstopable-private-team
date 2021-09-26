@@ -13,9 +13,9 @@ const Cart = (props) => {
     }
     
     return (
-        <div>
-            <div>
-                <h3>Total Added: {props.cart.length}</h3>
+        <div className="p-2 border border-dark mt-2 ">
+            
+                <h3>Total Added Agents: {props.cart.length}</h3>
                 <p>Total Cost: ${total}</p>
                 <ul>
                     {
@@ -28,7 +28,7 @@ const Cart = (props) => {
                             </div> )
                     }
                 </ul>
-            </div>
+            <button className="btn btn-danger px-5">Proceed</button>
         </div>
     );
 };

@@ -1,4 +1,6 @@
-
+.card:hover{
+    border: 3px solid red;
+}
 
 img {
     border-radius: 50%;
